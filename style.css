@@ -4,5 +4,19 @@
 }
 
 .corpo_site{
-    
+    color: white;
+    background-color: black;
+    }
+
+.cabeçalho {
+    text-align: center;
+}
+
+.cabeçalho_titulo {
+    font-size: 30px;
+}
+
+.paragrafo-introdução {
+    text-align: center;
+    text-align: center;
 }
