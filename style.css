@@ -3,20 +3,35 @@
     padding: 0px;
 }
 
-.corpo_site{
-    color: white;
+.corpo_pagina {
     background-color: black;
-    }
-
-.cabeçalho {
-    text-align: center;
+    color: white;
 }
 
 .cabeçalho_titulo {
+    font-size: 60px;
+    text-align: center;
+}
+
+.cabeçalho_subtitulo {
+    text-align: center;
+}
+
+.paragrafo_introdução {
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
     font-size: 30px;
 }
 
-    .paragrafo-introdução {
-       text-align: center;
-       text-align: center;
+.foto_turma {
+    width: 100%;
+}
+
+.lista_paginas_secundarias {
+    display: inline-block;
+}
+
+.corpo_pagina {
+    background-color: black;
 }
