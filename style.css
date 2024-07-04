@@ -1,37 +1,12 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.corpo_pagina {
-    background-color: black;
-    color: white;
-}
-
-.cabeçalho_titulo {
-    font-size: 60px;
-    text-align: center;
-}
-
-.cabeçalho_subtitulo {
-    text-align: center;
-}
-
-.paragrafo_introdução {
-    text-align: justify;
-    margin: 20px;
+/* Estilos básicos para a grade */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
     padding: 20px;
-    font-size: 30px;
 }
 
-.foto_turma {
-    width: 100%;
-}
-
-.lista_paginas_secundarias {
-    display: inline-block;
-}
-
-.corpo_pagina {
-    background-color: black;
+.grid-item img {
+    max-width: 100%;
+    height: auto;
 }
